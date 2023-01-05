@@ -1,0 +1,240 @@
+body{
+    margin: auto;
+    font-family:"Poppins",sans-serif;
+    background-color: rgb(38, 138, 200);
+}
+.container {
+    font-family:"Poppins",sans-serif;
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#cv-form {
+    border-radius: 30px;
+    background-color: wheat;
+    border: none;
+}
+
+#lol {
+    padding: 20px;
+    font-weight: bold;
+    color: #F64377;
+}
+
+#lol1 {
+    border-radius: 30px 30px 0 0;
+    border-bottom: 3px solid #F64377;
+}
+
+#pad {
+    padding: 20px;
+}
+
+#aqAddButton {
+    padding: 10px;
+}
+
+#weAddButton {
+    padding: 10px;
+}
+
+#per {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#nameField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#contactField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#addressField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#links {
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+#imgField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#fbField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#instaField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#linkedField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#objectiveField {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#Field {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(207, 168, 97);
+}
+
+#btn {
+    padding: 10px 60px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #F64377;
+    border: none;
+}
+
+#fun {
+    padding-bottom: 10px;
+}
+
+#fun1 {
+    padding-bottom: 5px;
+}
+
+#bol {
+    border-radius: 20px;
+    background-color: wheat;
+    border: none;
+}
+
+#fan {
+    border-bottom: 3px solid #F64377;
+}
+
+#fbT {
+    color: #0ee90e;
+}
+
+#fbT:hover {
+    color: #00ff00;
+}
+
+#instaT {
+    color: #0ee90e;
+}
+
+#instaT:hover {
+    color: #00ff00;
+}
+
+#linkedT {
+    color: #0ee90e;
+}
+
+#linkedT:hover {
+    color: #00ff00;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
